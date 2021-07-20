@@ -1,0 +1,103 @@
+
+@media (max-width: 991px) {
+  html {
+    font-size: 45%;
+  }
+  header .fa-bars {
+    display: block;
+  }
+  header nav {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    width: 35rem;
+    background: linear-gradient(blue, dodgerblue);
+    -webkit-box-shadow: .2rem 0 .5rem #333;
+            box-shadow: .2rem 0 .5rem #333;
+  }
+  header nav ul {
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header nav ul li {
+    margin: 2rem 0;
+  }
+  header nav ul li a {
+    font-size: 4rem;
+  }
+  #about .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  #about .wrapper .image img {
+    width: 50vw;
+  }
+  #about .wrapper .content {
+    width: 90vw;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .nav-toggle {
+    left: 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  #home {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+    padding: 0;
+  }
+  #home .content {
+    text-align: center;
+  }
+  #home .image img {
+    width: 50vw;
+  }
+  #skill .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  #skill .wrapper .image {
+    width: 100%;
+  }
+  #skill .wrapper .image p {
+    font-size: 2rem;
+    text-align: center;
+  }
+  #skill .wrapper .image img {
+    width: 50vw;
+  }
+  #skill .progress {
+    margin: 3rem 0;
+    width: 100%;
+  }
+  #skill .progress .line {
+    width: 100%;
+  }
+  #contact .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  #contact .wrapper .info {
+    width: 100%;
+  }
+  #contact .wrapper form {
+    width: 100%;
+  }
+}
